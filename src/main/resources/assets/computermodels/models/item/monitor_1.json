@@ -1,0 +1,45 @@
+{
+    "parent": "computermodels:block/xhair",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 50, 322, 0 ],
+            "translation": [ 0.00, 2.25, 2.50 ],
+            "scale": [ 0.75, 0.83, 0.83 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0.00, 0.00, 0.00 ],
+            "scale": [ 1.00, 1.00, 1.00 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 18, 332, 0 ],
+            "translation": [ -2.75, 6.25, 2.50 ],
+            "scale": [ 0.60, 0.60, 0.60 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0.00, 0.00, 0.00 ],
+            "scale": [ 1.00, 1.00, 1.00 ]
+        },
+        "gui": {
+            "rotation": [ 40, 58, 10 ],
+            "translation": [ -0.75, -3.00, 0.00 ],
+            "scale": [ 0.60, 0.54, 0.40 ]
+        },
+        "head": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0.00, 0.00, 0.00 ],
+            "scale": [ 1.00, 1.00, 1.00 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0.00, 0.00, 0.00 ],
+            "scale": [ 1.00, 1.00, 1.00 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0.00, 2.25, 0.00 ],
+            "scale": [ 0.60, 0.65, 0.65 ]
+        }
+    }
+}

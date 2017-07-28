@@ -1,0 +1,12 @@
+itemGroup.modelCreativeTab=Computer Models
+
+tile.tower_computer.name=Basic Computer
+tile.tower_computer2.name=Triple Monitor Computer
+tile.tower_computer3.name=Dual Monitor Computer
+
+tile.laptop.name=That Grey Old Thing
+tile.monitor.name=Monitor
+
+tile.modem.name=A Wireless Router
+
+tile.xhair.name=Broken Chair

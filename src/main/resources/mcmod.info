@@ -1,0 +1,16 @@
+[
+{
+  "modid": "computermodels",
+  "name": "Computer Models",
+  "description": "The mod that replaces ALL Computers Monitors and Chairs with high res alternatives.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CobraTomtrein","_ItzMattie_","RandomDude2020"],
+  "credits": "I guess, credits to TheGreyGhost for his itemTransformHelper.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

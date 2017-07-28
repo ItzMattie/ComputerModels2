@@ -1,0 +1,27 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+      "model": "computermodels:laptop"
+  },
+  "variants": {
+      "normal": {"model": "computermodels:laptop"},
+      "inventory": {
+          "model": "computermodels:item/laptop"
+      },
+      "facing": {
+          "north": {"y": 0},
+          "east": { "y": 90},
+          "south": {"y": 180},
+          "west": {"y": 270}
+      },
+        "advanced": {
+          "true": {},
+          "false": {}
+        },
+        "state": {
+          "off": {},
+          "on": {},
+          "blinking": {}
+        }
+    }
+}

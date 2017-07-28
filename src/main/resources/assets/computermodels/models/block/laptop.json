@@ -1,0 +1,37 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "0": "computermodels:blocks/lapshi",
+        "1": "computermodels:blocks/key_de_voir2",
+        "2": "computermodels:blocks/lapmon"
+    },
+    "elements": [
+        {
+            "name": "Bottem bace",
+            "from": [ 2.0, 0.0, 4.0 ],
+            "to": [ 14.0, 0.5, 14.0 ],
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 10.0, 11.0, 10.5 ] },
+                "east": { "texture": "#0", "uv": [ 3.0, 10.0, 9.0, 10.5 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 9.0, 10.0, 9.5 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 9.0, 11.0, 9.5 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 11.0, 15.4 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 9.0, 9.0, 9.0 ] }
+            }
+        },
+        {
+            "name": "Top Screen",
+            "from": [ 2.0, 2.5, 0.9 ],
+            "to": [ 14.0, 12.5, 1.4 ],
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 9.0, 10.0, 10.0 ] },
+                "east": { "texture": "#0", "uv": [ 6.0, 10.0, 6.5, 9.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 10.7, 12.0 ] },
+                "west": { "texture": "#0", "uv": [ 9.0, 11.0, 9.5, 11.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 9.0, 11.0, 9.5 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 9.0, 11.0, 9.5 ] }
+            }
+        }
+    ]
+}

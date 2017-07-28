@@ -1,0 +1,25 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "computermodels:tower_computer2"
+    },
+    "variants": {
+        "normal": {"model": "computermodels:item/tower_computer2"},
+        "inventory": {"model": "computermodels:tower_computer2"},
+        "facing": {
+            "north": {"y": 0},
+            "east": { "y": 90},
+            "south": {"y": 180},
+            "west": {"y": 270}
+        },
+        "advanced": {
+          "true": {},
+          "false": {}
+        },
+        "state": {
+          "off": {},
+          "on": {},
+          "blinking": {}
+        }
+    }
+}
