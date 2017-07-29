@@ -7,6 +7,7 @@ package com.cobratomtrein.computermodels.CCSandbox.blocks;
 
 import com.cobratomtrein.computermodels.ComputerModels;
 import com.cobratomtrein.computermodels.common.blocks.BlockIComputer;
+import com.cobratomtrein.computermodels.common.blocks.BlockSittableBlock;
 import com.cobratomtrein.computermodels.common.items.ItemUsableComputer;
 import com.cobratomtrein.computermodels.common.utils.CreativeTabModels;
 import java.util.HashMap;
@@ -20,6 +21,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import com.cobratomtrein.computermodels.common.blocks.itemRenderable;
 
 /**
  *
@@ -31,7 +33,7 @@ public class BlockRegisterComputer {
     
     
     public static String[] computerNamesUsable = new String[]{"tower_computer","tower_computer2","tower_computer3","laptop"};
-    public static String[] modelNames = new String[]{"monitor","modem","xhair"};
+    public static String[] modelNames = new String[]{"monitor","modem"};
     public static HashMap<String,Block> blocks = new HashMap<String,Block>();
     
     
@@ -44,6 +46,7 @@ public class BlockRegisterComputer {
             blocks.put(name, registerModel(new BlockIComputer(Material.ROCK,name)));
         }
         
+        //blocks.put("xhair", registerModel(new BlockSittableBlock(Material.ROCK,"xhair")));
         
         ComputerModels.CreativeTab.Icon = Item.getItemFromBlock(blocks.get("tower_computer"));
     }
@@ -60,8 +63,8 @@ public class BlockRegisterComputer {
 
         if (block instanceof ComputerBlock) {
             ((ComputerBlock)block).registerItemModel(itemBlock);
-        } else if (block instanceof BlockIComputer) {
-            ((BlockIComputer)block).registerItemModel(itemBlock);
+        } else if (block instanceof itemRenderable) {
+            ((itemRenderable)block).registerItemModel(itemBlock);
         }
         
         return block;

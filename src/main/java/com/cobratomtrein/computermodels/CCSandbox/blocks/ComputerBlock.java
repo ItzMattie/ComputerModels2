@@ -251,6 +251,11 @@ public class ComputerBlock extends Block implements ITileEntityProvider {
         }
     }
     
+    public int getLightValue(IBlockState state)
+    {
+        return 6;
+    }
+    
     
     //I Be advanced    
     
